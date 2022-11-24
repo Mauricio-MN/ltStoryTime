@@ -1,0 +1,90 @@
+1. Descrever uma narrativa explicando o que o sistema terá (sugestão: site de notícias com imagens e textos formatados e com formulários de cadastro ou pesquisa etc.).
+
+Criação de um sistema WEB, um pequeno blog de histórias com cadastro de usuários, painel administrativo e formulario de pesquisa, postagem de notícias no formato bbcode.
+
+Seguem passos 
+
+Passos do desenvolvimento:
+
+ Definição do Diagrama de Casos de Uso.
+  FOTO
+ Buscou-se deixar o diagrama o mais claro e compreensível para o rápido encaminhamento do projeto;
+
+
+
+Criação do banco de dados "LTStoryTime" no MySQL;
+
+2. Definir Diagrama de Casos de Uso. -> definido
+
+3
+Bootstrap
+
+Mysql
+
+4 - Concluída a implementação, deverá ser produzido um artigo científico no formato paper destacando as principais características das tecnologias utilizadas. Neste sentido, incluir no paper apenas alguns trechos de códigos principais, explicando-os.
+
+Além disso, você deve descrever através de citações diretas ou indiretas, sobre os conceitos das tecnologias utilizadas, ou explicar códigos fontes e diagrama utilizado com suas palavras, caso seja desenvolvimento de sua autoria.
+
+Título;
+
+Resumo;
+
+Introdução;
+
+Fundamentação Teórica;
+
+Metodologia;
+
+Resultados e Discussões;
+
+Conclusões; e
+
+Referências.
+
+
+criação do banco de dados
+LTStoryTime
+
+Tabela
+Account
+login varchar(100)
+password varchar(100)
+email varchar(256)
+admin bit
+userban bit
+
+Tabela
+Story
+Title varchar(256)
+bbcodetext varchar(MAX)
+autor varchar(100)
+postdate time
+
+[s.d.]
+
+
+criação e explicação da pasta de classes
+
+criação da classe de conexão com o banco
+explicação citação PDO
+
+criação e explicação da classe de validação
+
+criação e explicação da classe de contas
+
+criação e explicação da classe de post e edição de histórias
+
+criação da pasta dos módulos de usuário
+
+Módulo home com formulário de pesquisa e botão de postagem para página inicial
+
+Módulo de resultados de pesquisa
+
+módulo de Postagem de história
+
+criação da pasta dos módulos de Administrador
+
+módulo gerenciamento de história
+
+módulo gerenciamento de usuário
+

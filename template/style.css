@@ -1,0 +1,32 @@
+.default-border{
+margin-top:10px;
+border: 3px solid #999999;
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+
+}
+
+.title{
+ margin-top:10px;
+ width:100%;
+ float:left;
+background:#c3c3c3;
+border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+}
+
+.navbar{
+ background:#d8e6ec !important;
+}
+
+.default-border .btn{
+ background:#c3c3c3;
+ padding:0px 10px 0px 10px !important;
+}
+
+.default-border .btn:hover{
+ background:#a3a3a3;
+ padding:0px 10px 0px 10px !important;
+}
