@@ -16,10 +16,8 @@ Criação do banco de dados "LTStoryTime" no MySQL;
 
 2. Definir Diagrama de Casos de Uso. -> definido
 
-3
-Bootstrap
-
-Mysql
+3 - Bootstrap
+  - Mysql
 
 4 - Concluída a implementação, deverá ser produzido um artigo científico no formato paper destacando as principais características das tecnologias utilizadas. Neste sentido, incluir no paper apenas alguns trechos de códigos principais, explicando-os.
 
@@ -42,49 +40,58 @@ Conclusões; e
 Referências.
 
 
-criação do banco de dados
-LTStoryTime
+/ ----------------------------- /
 
+Criação do banco de dados
+LTStoryTime
+/---------------------;
 Tabela
+---------------------
 Account
+
 login varchar(100)
 password varchar(100)
 email varchar(256)
 admin bit
 userban bit
+/---------------------;
 
+/---------------------;
 Tabela
+---------------------
 Story
+
 Title varchar(256)
 bbcodetext varchar(MAX)
 autor varchar(100)
 postdate time
+/---------------------;
 
 [s.d.]
 
 
-criação e explicação da pasta de classes
+Criação e explicação da pasta de classes.
 
-criação da classe de conexão com o banco
-explicação citação PDO
+Criação da classe de conexão com o banco,
+explicação e citação sobre PDO.
 
-criação e explicação da classe de validação
+Criação e explicação da classe de validação.
 
-criação e explicação da classe de contas
+Criação e explicação da classe de contas.
 
-criação e explicação da classe de post e edição de histórias
+Criação e explicação da classe de post e edição de histórias.
 
-criação da pasta dos módulos de usuário
+Criação da pasta dos módulos de usuário.
 
-Módulo home com formulário de pesquisa e botão de postagem para página inicial
+Módulo home com formulário de pesquisa e botão de postagem para página inicial.
 
-Módulo de resultados de pesquisa
+Módulo de resultados de pesquisa.
 
-módulo de Postagem de história
+Módulo de Postagem de história.
 
-criação da pasta dos módulos de Administrador
+Criação da pasta dos módulos de Administrador.
 
-módulo gerenciamento de história
+Módulo gerenciamento de história.
 
-módulo gerenciamento de usuário
+Módulo gerenciamento de usuário.
 
